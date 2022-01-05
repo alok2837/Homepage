@@ -25,11 +25,9 @@ function App() {
       <Navbar />
       <Backvideo />
       <Central />
+      <Slider />
       <BrandsCarousel/>
       <Charity title_p={title} description={desc} imagesrc={image} />
-
-      <Slider />
-      
       <Footer />
     </div>
   );
