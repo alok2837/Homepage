@@ -10,6 +10,10 @@
   margin-bottom: 10px;
   padding: 10px;
 }
+.slide {
+  width: 270px;
+  height: 330px;
+}
 
 .slide img {
   width: 270px;
@@ -86,13 +90,16 @@
     display: flex;
     flex-direction: column;  
   } 
-  .slide,
-  .disc {
-    width: auto;
+  .slide {
+    width: 350px;
     height: auto;
   }
   .slide img {
     width: 350px;
+    height: auto;
+  }
+  .disc {
+    width: auto;
     height: auto;
   }
 }
