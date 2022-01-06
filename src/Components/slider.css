@@ -1,6 +1,5 @@
 .container {
   width: 100%;
-  height:100%;
   height: 100%;
   min-width: auto;
   min-height: auto;
@@ -11,41 +10,27 @@
   margin-bottom: 10px;
   padding: 10px;
 }
-
+.slide {
+  width: 270px;
+  height: 330px;
+}
 .slide img {
   width: 270px;
   height: 330px;
 }
-.slide h2{
+.slide h2 {
   font-size: 30px;
-
-  .slide h2 {
-  font-size: 32px;
   font-weight: 700;
   font-family: "Open Sans", sans-serif;
 }
-.slide p{
-  font-size: 12px;
-  font-family: 'Poppins', sans-serif;
-}
-
-.disc{
-  width: 70%;
-  height: 100%;
 .slide p {
-  font-size: 14px;
+  font-size: 12px;
   font-family: "Poppins", sans-serif;
 }
-.slide img {
-  width: 300px;
-  height: 340px;
-  min-width: auto;
-  min-height: auto;
-  box-sizing: border-box;
-}
+
 .disc {
   width: 70%;
-  height: 90%;
+  height: 100%;
   padding: 10px;
   box-sizing: border-box;
   min-width: auto;
@@ -58,14 +43,6 @@
   flex-direction: row;
   justify-content: space-around;
 }
-.disc .logo img{
-  width: 100px;
-  height: 100px;
-}
-.disc .logo h2{
-  height: 20%;
-  width: 70%;
-  font-size: auto;
 .disc .logo img {
   width: 100px;
   height: 100px;
@@ -73,7 +50,7 @@
 .disc .logo h2 {
   height: 20%;
   width: 70%;
-  font-size: 36px;
+  font-size: auto;
   font-weight: 700;
   font-family: "Open Sans", sans-serif;
 }
@@ -85,19 +62,14 @@
   justify-content: start;
 }
 .disc .buttons {
-  height:10%;
   height: 10%;
   width: 100%;
   display: flex;
   flex-direction: row-reverse;
 }
-.disc button{
+.disc button {
   width: 150px;
   height: auto;
-  background:#000000;
-.disc button {
-  height: 100%;
-  width: 20%;
   background: #000000;
   padding: 10px;
   font-family: "Open Sans", sans-serif;
@@ -108,28 +80,25 @@
   border: none;
   letter-spacing: 0.2px;
 }
-.disc button:hover{
+.disc button:hover {
   background: rgb(70, 70, 70);
 }
 
-@media screen and (max-width:1000px) {
-  .container{
+@media screen and (max-width: 1000px) {
+  .container {
     display: flex;
-    flex-direction: column;  
-  } 
-  .slide,
-  .disc {
-    width: auto;
+    flex-direction: column;
+  }
+  .slide {
+    width: 350px;
     height: auto;
   }
   .slide img {
     width: 350px;
     height: auto;
   }
-}
-@media screen and (max-width: 700px) {
-  .container {
-    display: flex;
-    flex-direction: column;
+  .disc {
+    width: auto;
+    height: auto;
   }
 }
