@@ -25,7 +25,7 @@ function App() {
       <Backvideo />
       <Central />
       <Slider />
-      <BrandsCarousel />
+      <BrandsCarousel/>
       <Charity title_p={title} description={desc} imagesrc={image} />
       <Footer />
     </div>
