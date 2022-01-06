@@ -18,7 +18,7 @@
 .slide h2{
   font-size: 30px;
   font-weight: 700;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 .slide p{
   font-size: 12px;
@@ -49,13 +49,14 @@
   width: 70%;
   font-size: auto;
   font-weight: 700;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 .disc p{
   width: 100%;
   height: 70%;
   font-size: 14px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
+  justify-content: start;
 }
 .disc .buttons {
   height:10%;
@@ -68,10 +69,10 @@
   height: auto;
   background:#000000;
   padding: 10px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 20px;
   font-weight: 700;
-  color:#fcfcfc;
+  color: #fcfcfc;
   border-radius: 5px;
   border: none;
   letter-spacing: 0.2px;
