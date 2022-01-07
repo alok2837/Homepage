@@ -5,6 +5,9 @@
   padding-top: 10px;
   padding-left: 15px;
   padding-right: 15px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
 }
 
 .navbar a {
