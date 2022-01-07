@@ -162,12 +162,13 @@ img:hover {
 
 /* My Code starts here */
 
-.social-Media {
+/* .social-Media {
   display: flex;
   flex-direction: row;
   margin-left: -100px;
   margin-top: 10px;
 }
+
 .foot {
   display: flex;
   flex-direction: row;
@@ -202,6 +203,6 @@ a.twitter {
 
 a.instagram {
   color: rgb(247, 238, 238);
-}
+} */
 
 /* My Code ends here */
