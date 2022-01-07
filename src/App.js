@@ -1,7 +1,7 @@
 import "./App.css";
 import Charity from "./Components/Charity";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Footer from "./Components/Footer";
+import {FooterContainer} from "./footer000/containers/footer";
 import Central from "./Components/Central";
 import Backvideo from "./Components/Backvideo";
 import Slider from "./Components/Slider";
@@ -27,7 +27,7 @@ function App() {
       <Slider />
       <BrandsCarousel/>
       <Charity title_p={title} description={desc} imagesrc={image} />
-      <Footer />
+      <FooterContainer />
     </div>
   );
 }
