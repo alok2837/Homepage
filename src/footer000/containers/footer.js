@@ -9,14 +9,18 @@ export function FooterContainer() {
             <Footer.Row>
                 <Footer.Column>
                 <Footer.Title>FOR ATHLETES</Footer.Title>
-                {/* <div className="socialFav"> */}
+                <div className="socialFav">
                 
-                    <Footer.Link href="#"><Icon className="fab fa-twitter" />Twitter</Footer.Link>
-                    <Footer.Link href="#"><Icon className="fab fa-youtube" />Youtube</Footer.Link>
-                    <Footer.Link href="#"><Icon className="fab fa-instagram" />Instagram</Footer.Link>
-                    <Footer.Link href="#"><Icon className="fab fa-facebook-f" /> Facebook</Footer.Link>  
-                {/* </div> */}
-                     <h4  style={{ color: "#fff"}}>Contact Us</h4>
+                    <Footer.Link href="#"><Icon className="fab fa-twitter" /></Footer.Link>
+                    <Footer.Link href="#"><Icon className="fab fa-youtube" /></Footer.Link>
+                    <Footer.Link href="#"><Icon className="fab fa-instagram" /></Footer.Link>
+                    <Footer.Link href="#"><Icon className="fab fa-facebook-f" /> </Footer.Link>  
+                </div>
+                <h3  style={{ color: "#fff",
+				textAlign: "center",
+				marginBottom:"30px",
+                marginLeft:"-40px",
+				marginTop: "30px" }}>Contact Us</h3>
                 </Footer.Column>
                 <Footer.Column>
                 <Footer.Title>Categories</Footer.Title>
