@@ -1,5 +1,13 @@
 import React, { Component } from "react";
 import "../Components/Footer.css";
+import {
+  faYoutube,
+  faFacebook,
+  faTwitter,
+  faInstagram
+} from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 function Footer() {
   return (
     <div
@@ -24,12 +32,30 @@ function Footer() {
                 />
               </a>
             </div>
-            <div className="online-links">
+            {/* <div className="online-links">
               <i className="porto-icon-twitter links"></i>
               <i className="porto-icon-youtube links"></i>
               <i className="porto-icon-instagram links"></i>
               <i className="porto-icon-facebook links"></i>
-            </div>
+            </div> */}
+            <div class="social-container">
+                 <a href="https://www.youtube.com/c/jamesqquick"
+                    className="youtube social">
+                    <FontAwesomeIcon icon={faYoutube} size="2x" />
+                 </a>
+                 <a href="https://www.facebook.com/learnbuildteach/"
+                     className="facebook social">
+                     <FontAwesomeIcon icon={faFacebook} size="2x" />
+                  </a>
+                  <a href="https://www.twitter.com/jamesqquick" 
+                     className="twitter social">
+                   <FontAwesomeIcon icon={faTwitter} size="2x" />
+                  </a>
+                <a href="https://www.instagram.com/learnbuildteach"
+                     className="instagram social">
+                   <FontAwesomeIcon icon={faInstagram} size="2x" />
+               </a>
+       </div>
             <div>Contact Us</div>
           </div>
           <div className="footerlinks">
@@ -51,42 +77,35 @@ function Footer() {
                   <a href="https://forathletes.com/supplements">Supplements</a>
                 </li>
                 <li>
-                  <a href="https://forathletes.com/recovery">Recovery</a>
-                </li>
-                <li>
-                  <a href="https://forathletes.com/sleep">Sleep</a>
+                  <a href="https://forathletes.com/recovery">Recovery & Sleep</a>
                 </li>
                 <li>
                   <a href="https://forathletes.com/training">Training</a>
                 </li>
                 <li>
-                  <a href="https://forathletes.com/mental-performance">
-                    <text className="XYZ">ABCD</text>
-                  </a>
+                  <a href="https://forathletes.com/mental-performance">Mental performance</a>
                 </li>
               </ul>
             </div>
             <div>
               <h5>Other Pages</h5>
               <ul>
+              <li>
+                  <a href="/Charities">Charities</a>
+                </li>
                 <li>
                   <a href="/about-us" className="color-white">
                     About Us
                   </a>
                 </li>
                 <li>
-                  <a href="/contact" className="color-white">
-                    Contact Us
+                  <a href="#" className="color-white">
+                    Terms & conditions
                   </a>
                 </li>
                 <li>
                   <a href="/privacy-policy" className="color-white">
                     Privacy Policy
-                  </a>
-                </li>
-                <li>
-                  <a href="/terms-and-conditions" className="color-white">
-                    Terms &amp; Conditions
                   </a>
                 </li>
                 <li>
@@ -100,16 +119,8 @@ function Footer() {
                   </a>
                 </li>
                 <li>
-                  <a href="/sales/guest/form" className="color-white">
-                    Guest User Order
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="/donotsellmypersonalinformation"
-                    className="color-white"
-                  >
-                    Do Not Sell My Personal Information
+                  <a href="#" className="color-white">
+                    Why Partner With Us
                   </a>
                 </li>
               </ul>
@@ -133,12 +144,12 @@ function Footer() {
                     My Orders
                   </a>
                 </li>
-                <li>Subscriptions</li>
+                {/* <li>Subscriptions</li> */}
               </ul>
             </div>
           </div>
         </div>
-        <div className="footer-rights">© 2021. All rights reserved</div>
+        <div className="footer-rights">&copy;{new Date().getFullYear()} forAthletes | All rights reserved</div>
       </div>
     </div>
   );
