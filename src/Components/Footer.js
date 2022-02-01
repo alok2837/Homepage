@@ -49,7 +49,7 @@ function Footer() {
                      className="instagram social">
                    <FontAwesomeIcon icon={faInstagram} size="2x" />
                </a>
-       </div>
+            </div>
             <div>Contact Us</div>
           </div>
           <div className="footerlinks">
